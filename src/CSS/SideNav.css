@@ -1,0 +1,41 @@
+.main_container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(0,7,61);
+    color: white;
+    height: 100vh; 
+  }
+  .routes{
+      color: white;
+  }
+  .top_section{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 15px;
+  }
+  .top_section h1{
+     height: 20px;
+  }
+  .logo{
+      font-size: 1.2rem;
+  }
+
+  .link{
+      display: flex;
+      color: white;
+      gap: 10px;
+      padding: .8rem;
+      /* border-right: 4px solid transparent; */
+      white-space: nowrap;
+      transition: all 0.2s ease-in-out ;
+      /* transition: 0.2s cubic-bezier(0.6,-0.28,0.735,0
+      .045) */
+     
+  }
+  .link:hover{
+      border-right: 4px solid white;
+     background: rgb(45,51,89);
+      
+  }
